@@ -1,12 +1,13 @@
-**Project Title: ** Singapore Resale Flat Price Prediction
+****Project Title: ** Singapore Resale Flat Price Prediction**
 
 **Skills Gained:**
 
-Data Wrangling: Handling and cleaning resale flat transaction data from Singapore HDB.
-Exploratory Data Analysis (EDA): Understanding data distributions and relationships between features.
-Model Building: Selecting and training regression models like linear regression, decision trees, or random forests.
-Model Deployment: Building a user-friendly web app using Streamlit and deploying it on platforms like Render.
-Domain: Real Estate
+**1. Data Wrangling:** Handling and cleaning resale flat transaction data from Singapore HDB.
+**2. Exploratory Data Analysis (EDA):** Understanding data distributions and relationships between features.
+**3. Model Building:** Selecting and training regression models like linear regression, decision trees, or random forests.
+**4. Model Deployment:** Building a user-friendly web app using Streamlit and deploying it on platforms like Render.
+
+**Domain:** Real Estate
 
 **Problem Statement:**
 

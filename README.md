@@ -1,38 +1,48 @@
-****Project Title: ** Singapore Resale Flat Price Prediction**
+# Singapore Resale Flat Price Prediction
 
-**Skills Gained:**
+## Overview
+This project aims to develop a machine learning model and deploy it as a user-friendly web application to predict the resale prices of flats in Singapore. By leveraging historical data of resale flat transactions and utilizing machine learning techniques, the project seeks to assist both potential buyers and sellers in estimating the resale value of a flat accurately.
 
-**1. Data Wrangling:** Handling and cleaning resale flat transaction data from Singapore HDB.
-**2. Exploratory Data Analysis (EDA):** Understanding data distributions and relationships between features.
-**3. Model Building:** Selecting and training regression models like linear regression, decision trees, or random forests.
-**4. Model Deployment:** Building a user-friendly web app using Streamlit and deploying it on platforms like Render.
+## Motivation
+The resale flat market in Singapore is highly competitive, making it challenging to accurately estimate the resale value of a flat. This project aims to overcome these challenges by providing users with estimated resale prices based on various factors such as location, flat type, floor area, and lease duration.
 
-**Domain:** Real Estate
+## Skills Gained
+- Data wrangling
+- Exploratory data analysis (EDA)
+- Model building
+- Model deployment
 
-**Problem Statement:**
+## Domain
+Real Estate
 
-Develop a machine learning model and web app to predict resale flat prices in Singapore, aiding buyers and sellers in estimating property values accurately.
-**
-Motivation:**
+## Project Scope
+- Data Collection and Preprocessing
+- Feature Engineering
+- Model Selection and Training
+- Model Evaluation
+- Streamlit Web Application Development
+- Deployment on Render
+- Testing and Validation
 
-The competitive nature of Singapore's resale flat market demands accurate pricing estimates. By considering factors like location, flat type, and lease duration, a predictive model can provide invaluable insights to users.
+## Data Source
+The dataset for this project is sourced from the Singapore Housing and Development Board (HDB) via [Data.gov.sg](https://data.gov.sg/collections/189/view).
 
-**Scope:**
+## Results
+The project benefits both potential buyers and sellers in the Singapore housing market by providing them with a reliable tool for estimating resale prices. Buyers can use the application to make informed decisions, while sellers can gain insights into their flat's potential market value. Additionally, the project demonstrates the practical application of machine learning in real estate and web development domains.
 
-**1. Data Collection and Preprocessing:** Gather and clean resale flat transaction data from Singapore HDB.
-**2. Feature Engineering:** Extract relevant features like town, flat type, floor area, etc., and create additional features for better prediction accuracy.
-**3. Model Selection and Training**: Choose and train regression models on historical data.
-**4. Model Evaluation:** Assess model performance using metrics like MAE, MSE, RMSE, and R2 Score.
-**5. Streamlit Web Application:** Develop a user-friendly web app allowing users to input flat details for price prediction.
-**6. Deployment on Render**: Deploy the Streamlit app on Render for accessibility.
-**7. Testing and Validation:** Ensure the app functions correctly and provides accurate predictions.
+## Installation
+To run the web application locally, follow these steps:
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Run the Streamlit app using `streamlit run app.py`.
 
-**Deliverables:**
+## Usage
+- Visit the deployed web application [here](#).
+- Enter details of the flat (town, flat type, storey range, etc.).
+- Obtain the predicted resale price based on user inputs.
 
-1. Well-trained ML model for resale price prediction.
-2. User-friendly web app deployed on Render.
-3. Documentation and usage instructions.
-4. Project report summarizing analysis, model development, and deployment.
-   
-**Results:**
-The project benefits both buyers and sellers, providing them with valuable pricing insights. It showcases the practical application of ML in real estate and web development.
+## Credits
+- Data Source: Singapore Housing and Development Board (HDB) via [Data.gov.sg](https://data.gov.sg/collections/189/view)
+
+## License
+This project is licensed under the [MIT License](LICENSE).
